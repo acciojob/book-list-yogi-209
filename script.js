@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 		const isbninput=document.getElementbyId("isbn")
 
 		const title=titleInput.value.trim()
-		const author=titleInput.value.trim()
+		const author=authorInput.value.trim()
 		const isbn=isbninput.value.trim()
 
 		if(title===""||author===""||isbn==="")
