@@ -1,13 +1,13 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded",()=>{
-	const submitBtn=document.getElementbyId("submit")
-	const bookList=documrnt.getElementbyId("book-list")
+	const submitBtn=document.getElementById("submit")
+	const bookList=documrnt.getElementById("book-list")
 	submitBtn.addEventListner("click" ,(e)=>{
 		e.preventDefault();
 
-		const titleInput=document.getElementbyId("title");
-		const  authorInput=document.getElementbyId("author")
-		const isbninput=document.getElementbyId("isbn")
+		const titleInput=document.getElementById("title");
+		const  authorInput=document.getElementById("author")
+		const isbninput=document.getElementById("isbn")
 
 		const title=titleInput.value.trim()
 		const author=authorInput.value.trim()
