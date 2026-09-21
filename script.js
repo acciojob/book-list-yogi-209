@@ -13,17 +13,17 @@ document.addEventListener("DOMContentLoaded",()=>{
 		const author=titleInput.value.trim()
 		const isbn=isbninput.value.trim()
 
-		if(value===""||author===""||isbn==="")
+		if(title===""||author===""||isbn==="")
 		{
 			return;
 		}
 
 		const row=document.createElement("tr");
-		row.innerHTML='
+		row.innerHTML=`
 			<td>${title}</td>
 			<td>${author}</td>
 			<td>${isbn}</td>
-			<td><button class="delete">Clear</button></td>';
+			<td><button class="delete">Clear</button></td>`;
 
 			bookList.appendChild(row);
 
