@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 	});
 bookList.addEventListener("click",(e)=>{
 if(e.target.classList.contains("delete")){
-	e.target.parentElement.remove();
+	e.target.parentElement.parentElement.remove();
 }
 });
 });
